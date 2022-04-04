@@ -76,9 +76,22 @@ html {
 }
 
 .sobre-mim p {
+    display: inline-block;
     padding-top: 15px ;
     font-weight: 400;
     font-size: 18px;
+}
+
+.curriculo {
+    font-size: 35px;
+    padding: 0 20px;
+    border-radius: 20px;
+    background-color: #8c1351;
+    color: #29ffe9;
+}
+
+.curriculo i {
+    font-size: 40px;
 }
 
 .secao-principal {
@@ -90,6 +103,7 @@ html {
 .habilidades-tecnicas {
     max-width: 620px;
 }
+
 .habilidades-tecnicas i {
     font-size: 65px;
 }
@@ -110,4 +124,5 @@ html {
 .habilidades-tecnicas li p {
     font-size: 18px;
 }
+
 
