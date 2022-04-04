@@ -53,7 +53,7 @@ html {
     justify-content: space-between;
     align-items: center;
     background-color: #0d1321;
-    width: 45%;
+    max-width: 850px;
     padding: 20px;
     margin: 50px ;
 }
@@ -78,4 +78,38 @@ html {
 
 .minha-foto {
     max-width: 220px;
+}
+
+.secao-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.habilidades-tecnicas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d1321;
+    max-width: 600px;
+    padding: 20px;
+    margin: 50px ;
+}
+
+.habilidades-tecnicas h2, li {
+    background-image: linear-gradient(to bottom, #8c1351, #29ffe9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.habilidades-tecnicas h2 {
+    font-weight: 650;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+.habilidades-tecnicas li p {
+    font-size: 18px;
 }

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    outline: none;
     box-sizing: border-box;
     font-family: 'MuseoModerno', cursive;
     font-weight: 400;
