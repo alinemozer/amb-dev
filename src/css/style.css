@@ -31,6 +31,10 @@ html {
     font-weight: 900;
 }
 
+.minha-foto {
+    max-width: 220px;
+}
+
 .menu {
     display: flex;
     align-items: center;
@@ -47,7 +51,8 @@ html {
     color: #29ffe9;
 }
 
-.sobre-mim {
+.sobre-mim,
+.habilidades-tecnicas {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -76,10 +81,6 @@ html {
     font-size: 18px;
 }
 
-.minha-foto {
-    max-width: 220px;
-}
-
 .secao-principal {
     display: flex;
     align-items: center;
@@ -87,14 +88,10 @@ html {
 }
 
 .habilidades-tecnicas {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #0d1321;
-    max-width: 600px;
-    padding: 20px;
-    margin: 50px ;
+    max-width: 620px;
+}
+.habilidades-tecnicas i {
+    font-size: 65px;
 }
 
 .habilidades-tecnicas h2, li {
@@ -113,3 +110,4 @@ html {
 .habilidades-tecnicas li p {
     font-size: 18px;
 }
+
