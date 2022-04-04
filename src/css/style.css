@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;600;900&display=swap');
+
+html {
+    background-image: url('../images/fundo-fitas.jpg');
+    background-attachment: fixed;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d1321;
+    padding: 45px;
+}
+
+.cabecalho .logo h2 {
+    color: #29ffe9;
+}
+
+.cabecalho .logo h2:hover{
+    font-weight: 900;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li a {
+    font-size: 18px;
+    margin-left: 20px;
+    padding: 20px;
+    transition: 0.3s step-end;
+}
+
+.menu li a:hover {
+    color: #29ffe9;
+}
+
+.sobre-mim {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d1321;
+    width: 45%;
+    padding: 20px;
+    margin: 50px ;
+}
+
+.sobre-mim h1, p {
+    background-image: linear-gradient(to top, #8c1351, #29ffe9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.sobre-mim h1 {
+    font-weight: 900;
+    font-size: 55px;
+}
+
+.sobre-mim p {
+    padding-top: 15px ;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.minha-foto {
+    max-width: 220px;
+}
