@@ -10,7 +10,20 @@ html {
     justify-content: space-between;
     align-items: center;
     background-color: #0d1321;
-    padding: 45px;
+    padding: 10px;
+}
+
+.cabecalho .logo, .menu {
+    max-width: 1400px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    padding-right: 20px;
 }
 
 .cabecalho .logo h2 {
