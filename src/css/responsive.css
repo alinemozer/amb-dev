@@ -1,3 +1,44 @@
-@media(max-widgt:1400px) {
-    .cabecalho
+@media(max-width:1650px) {
+    .cabecalho {
+        padding: 10px 55px;
+    }
+
+    .cabecalho .logo h2 {
+        font-size: 16px;
+    }
+
+    .menu li a {
+        font-size: 18px;
+    }
+
+    .sobre-mim h1 {
+        font-size: 50px;
+    }
+
+    .sobre-mim p {
+        font-size: 16px;
+    }
+
+    .habilidades-tecnicas h2 {
+        font-size: 35px;
+    }
+
+    .habilidades-tecnicas i {
+        font-size: 50px;
+    }
+
+    .habilidades-tecnicas li p {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:1200px) {
+    .secao-principal {
+        flex-direction: column;
+    }
+
+    .sobre-mim,
+    .habilidades-tecnicas {
+        margin: 5px;
+    }
 }

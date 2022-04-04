@@ -33,10 +33,6 @@ html {
     font-weight: 600;
 }
 
-.minha-foto {
-    max-width: 220px;
-}
-
 .menu {
     display: flex;
     align-items: center;
@@ -81,6 +77,10 @@ html {
     padding-top: 15px ;
     font-weight: 400;
     font-size: 18px;
+}
+
+.sobre-mim .minha-foto {
+    max-width: 220px;
 }
 
 .secao-principal {
