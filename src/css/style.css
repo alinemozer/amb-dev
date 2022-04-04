@@ -25,10 +25,12 @@ html {
 
 .cabecalho .logo h2 {
     color: #29ffe9;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
 .cabecalho .logo h2:hover{
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .minha-foto {
@@ -51,8 +53,7 @@ html {
     color: #29ffe9;
 }
 
-.sobre-mim,
-.habilidades-tecnicas {
+.sobre-mim {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -64,7 +65,7 @@ html {
 }
 
 .sobre-mim h1, p {
-    background-image: linear-gradient(to top, #8c1351, #29ffe9);
+    background-image: linear-gradient(to top, #ee9bff, #29ffe9);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -82,18 +83,6 @@ html {
     font-size: 18px;
 }
 
-.curriculo {
-    font-size: 35px;
-    padding: 0 20px;
-    border-radius: 20px;
-    background-color: #8c1351;
-    color: #29ffe9;
-}
-
-.curriculo i {
-    font-size: 40px;
-}
-
 .secao-principal {
     display: flex;
     align-items: center;
@@ -101,7 +90,14 @@ html {
 }
 
 .habilidades-tecnicas {
-    max-width: 620px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #0d1321;
+        max-width: 600px;
+        padding: 10px 30px;
+        margin: 50px ;
 }
 
 .habilidades-tecnicas i {
@@ -109,7 +105,7 @@ html {
 }
 
 .habilidades-tecnicas h2, li {
-    background-image: linear-gradient(to bottom, #8c1351, #29ffe9);
+    background-image: linear-gradient(to bottom, #ee9bff, #29ffe9);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
