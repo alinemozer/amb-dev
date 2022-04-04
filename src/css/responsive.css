@@ -33,6 +33,16 @@
 }
 
 @media(max-width:1200px) {
+    .cabecalho {
+        flex-direction: column;
+    }
+
+    .cabecalho .logo {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
     .secao-principal {
         flex-direction: column;
     }
@@ -42,3 +52,42 @@
         margin: 5px;
     }
 }
+
+@media(max-width:785px) {
+    .cabecalho .logo h2 {
+        font-size: 12px;
+    }
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu li {
+        padding-bottom: 35px;
+    }
+
+    .menu li a {
+        padding: 10px 20px;
+        margin: 0;
+    }
+
+    .menu li a:hover {
+        background-color: #29ffe9;
+        color: #000
+    }
+}
+
+@media(max-width:575px) {
+    .sobre-mim {
+        flex-direction: column;
+    }
+
+    .sobre-mim h1 {
+        font-size: 40px;
+    }
+
+    .menu li a {
+        font-size: 15px;
+    }
+}
+
+
