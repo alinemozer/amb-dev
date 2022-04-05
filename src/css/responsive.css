@@ -50,6 +50,10 @@
         justify-content: center;
     }
 
+    .menu {
+        padding-bottom: 35px;
+    }
+
 
     .secao-principal {
         flex-direction: column;
