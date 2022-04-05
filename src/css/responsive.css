@@ -33,6 +33,10 @@
 }
 
 @media(max-width:1200px) {
+    .logo img {
+        padding-right: 0;
+    }
+
     .cabecalho {
         flex-direction: column;
         align-items: center;
@@ -41,8 +45,11 @@
 
     .cabecalho .logo {
         flex-direction: column;
-        padding-bottom: 30px;
+        padding-bottom: 50px;
+        align-items: center;
+        justify-content: center;
     }
+
 
     .secao-principal {
         flex-direction: column;
