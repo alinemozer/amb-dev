@@ -72,7 +72,7 @@ html {
     align-items: center;
     background-color: var(--bg-color-secoes);
     max-width: 850px;
-    padding: 20px;
+    padding: 25px;
     margin: 50px;
 }
 
@@ -97,22 +97,17 @@ html {
     font-size: 1.8rem;
 }
 
-.sobre-mim .consideracoes-finais.curriculo {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.sobre-mim .curriculo .btn {
+.sobre-mim .btn-curriculo {
     background-color: var(--cor-padrao-2);
     color: var(--bg-color-secoes);
     padding: 15px 45px;
+    margin-top: 5px;
     font-size: 1.8rem;
     border-radius: 2px;
     box-shadow: 8px 5px 5px var(--cor-padrao-1);
 }
 
-.sobre-mim .curriculo a:hover {
+.sobre-mim .btn-curriculo:hover {
     font-weight: 600; 
     color: var(--cor-padrao-1);  
 }
