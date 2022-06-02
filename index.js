@@ -1,1 +1,1 @@
-alert ('Olá! Estou muito feliz por você ter acessado meu portfólio! Mas gostaria de te informar que ele ainda está em construção. Então entre, mas não repara a bagunça! =p')
+// alert ('Olá! Estou muito feliz por você ter acessado meu portfólio! Mas gostaria de te informar que ele ainda está em construção. Então entre, mas não repara a bagunça! 😜')

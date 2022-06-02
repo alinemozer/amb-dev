@@ -3,11 +3,13 @@
 html {
     background-image: var(--html-bg-img);
     background-attachment: fixed;
+    scroll-behavior: smooth;
     font-size: 62.5%;
 }
 
 .container {
     max-width: 1650px;
+    margin: 0 auto;
 }
 
 .cabecalho {
@@ -22,7 +24,7 @@ html {
     margin: 0 auto;
 }
 
-.logo  {
+.logo {
     display: flex;
     align-items: center;
 }
@@ -49,7 +51,7 @@ html {
 
 .menu li a {
     font-size: 18px;
-    margin-left: 20px;
+    gap: 35px;
     padding: 20px;
     transition: 0.3s ease-in-out;
 }
@@ -71,7 +73,7 @@ html {
     justify-content: space-between;
     align-items: center;
     background-color: var(--bg-color-secoes);
-    max-width: 850px;
+    max-width: 650px;
     padding: 25px;
     margin: 50px;
 }
@@ -88,8 +90,47 @@ html {
     font-size: 55px;
 }
 
-.sobre-mim .minha-foto {
-    max-width: 220px;
+.sobre-mim .foto {
+    max-width: 225px;
+    max-height: 305px;
+    /* border: 5px solid var(--cor-padrao-1); */
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-mim .foto::before {
+    content: " ";
+    background-image: conic-gradient(red 20deg, transparent 120deg);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: rotate 2s linear infinite;
+}
+
+.sobre-mim .foto::after {
+    content: " ";
+    background: url(../images/foto.jpg);
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .sobre-mim p {
@@ -105,6 +146,7 @@ html {
     font-size: 1.8rem;
     border-radius: 2px;
     box-shadow: 8px 5px 5px var(--cor-padrao-1);
+    transition: 0.3s ease-in-out;
 }
 
 .sobre-mim .btn-curriculo:hover {
@@ -118,7 +160,7 @@ html {
         justify-content: space-between;
         align-items: center;
         background-color: var(--bg-color-secoes);
-        max-width: 600px;
+        max-width: 550px;
         padding: 10px 30px;
         margin: 50px;
 }
@@ -136,7 +178,7 @@ html {
 
 .habilidades-tecnicas h2 {
     font-weight: 650;
-    font-size: 4.5rem;
+    font-size: 4rem;
     padding-bottom: 20px;
 }
 

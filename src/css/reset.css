@@ -16,3 +16,7 @@ a {
     text-decoration: none;
     color: var(--cor-padrao-1);
 }
+
+img {
+    max-width: 100%;
+}

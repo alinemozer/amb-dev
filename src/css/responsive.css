@@ -1,37 +1,3 @@
-@media(max-width: 1440px) {
-    .cabecalho {
-        padding: 10px;
-    }
-
-    .cabecalho .logo h2 {
-        font-size: 1.6rem;
-    }
-
-    .menu li a {
-        font-size: 1.8rem;
-    }
-
-    .sobre-mim h1 {
-        font-size: 5rem;
-    }
-
-    .sobre-mim p {
-        font-size: 1.6rem;
-    }
-
-    .habilidades-tecnicas h2 {
-        font-size: 3.5rem;
-    }
-
-    .habilidades-tecnicas i {
-        font-size: 5rem;
-    }
-
-    .habilidades-tecnicas li p {
-        font-size: 1.6rem;
-    }
-}
-
 @media(max-width: 1200px) {
     .logo img {
         padding-right: 0;
