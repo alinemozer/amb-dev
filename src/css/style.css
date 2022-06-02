@@ -1,19 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;600;900&display=swap');
 
 html {
-    background-image: url('../images/fundo-fitas.jpg');
+    background-image: var(--html-bg-img);
     background-attachment: fixed;
+    font-size: 62.5%;
+}
+
+.container {
+    max-width: 1650px;
 }
 
 .cabecalho {
+    background-color: var(--bg-color-secoes);
+}
+
+.cabecalho .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0d1321;
-    padding: 10px 100px;
+    padding: 25px 35px;
+    margin: 0 auto;
 }
 
-.logo {
+.logo  {
     display: flex;
     align-items: center;
 }
@@ -24,8 +33,8 @@ html {
 }
 
 .cabecalho .logo h2 {
-    color: #29ffe9;
-    font-size: 18px;
+    color: var(--cor-padrao-2);
+    font-size: 1.8rem;
     text-transform: uppercase;
 }
 
@@ -42,11 +51,18 @@ html {
     font-size: 18px;
     margin-left: 20px;
     padding: 20px;
-    transition: 0.3s step-end;
+    transition: 0.3s ease-in-out;
 }
 
 .menu li a:hover {
-    color: #29ffe9;
+    background-color: var(--cor-padrao-2);
+    color: var(--bg-color-secoes);
+}
+
+.secao-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .sobre-mim {
@@ -54,14 +70,14 @@ html {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    background-color: #0d1321;
+    background-color: var(--bg-color-secoes);
     max-width: 850px;
     padding: 20px;
-    margin: 50px ;
+    margin: 50px;
 }
 
 .sobre-mim h1, p {
-    background-image: linear-gradient(to top, #ee9bff, #29ffe9);
+    background-image: linear-gradient(to top, var(--cor-padrao-1), var(--cor-padrao-2));
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -72,21 +88,33 @@ html {
     font-size: 55px;
 }
 
-.sobre-mim p {
-    display: inline-block;
-    padding-top: 15px ;
-    font-weight: 400;
-    font-size: 18px;
-}
-
 .sobre-mim .minha-foto {
     max-width: 220px;
 }
 
-.secao-principal {
+.sobre-mim p {
+    padding-top: 15px ;
+    font-size: 1.8rem;
+}
+
+.sobre-mim .consideracoes-finais.curriculo {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.sobre-mim .curriculo .btn {
+    background-color: var(--cor-padrao-2);
+    color: var(--bg-color-secoes);
+    padding: 15px 45px;
+    font-size: 1.8rem;
+    border-radius: 2px;
+    box-shadow: 8px 5px 5px var(--cor-padrao-1);
+}
+
+.sobre-mim .curriculo a:hover {
+    font-weight: 600; 
+    color: var(--cor-padrao-1);  
 }
 
 .habilidades-tecnicas {
@@ -94,18 +122,18 @@ html {
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        background-color: #0d1321;
+        background-color: var(--bg-color-secoes);
         max-width: 600px;
         padding: 10px 30px;
-        margin: 50px ;
+        margin: 50px;
 }
 
 .habilidades-tecnicas i {
-    font-size: 65px;
+    font-size: 6.5rem;
 }
 
 .habilidades-tecnicas h2, li {
-    background-image: linear-gradient(to bottom, #ee9bff, #29ffe9);
+    background-image: linear-gradient(to left, var(--cor-padrao-1), var(--cor-padrao-2));
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -113,12 +141,14 @@ html {
 
 .habilidades-tecnicas h2 {
     font-weight: 650;
-    font-size: 45px;
+    font-size: 4.5rem;
     padding-bottom: 20px;
 }
 
 .habilidades-tecnicas li p {
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
-
+.habilidades-tecnicas li p:last-child {
+    padding-bottom: 10px;
+}

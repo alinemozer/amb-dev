@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AMB/DEV - Portfólio</title>
-    <meta name="description"
-        content="Portfólio com projetos de desenvolvimento front-end, criados por Aline Mozer Baptista.">
+    <meta name="description" content="Portfólio com projetos de desenvolvimento front-end, criados por AMB/DEV.">
 
     <link rel="shortcut icon" href="src/images/favicon.png" type="image/x-icon">
 
     <script src="https://kit.fontawesome.com/06de1411f7.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variables.css">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/responsive.css">
 </head>
@@ -21,29 +21,31 @@
 <body>
 
     <header class="cabecalho">
-        <a class="logo" href="index.html">
-            <img src="src/images/logo.png" alt="Logo" title="Logo AMB/DEV">
-            <h2>Desenvolvimento Front-end</h2>
-        </a>
+        <div class="container">
+            <a class="logo" href="index.html">
+                <img src="src/images/logo.png" alt="Logo" title="Logo AMB/DEV">
+                <h2>Desenvolvimento Front-end</h2>
+            </a>
 
-        <nav>
-            <ul class="menu">
-                <li><a href="#sobre-mim">Sobre Mim</a></li>
-                <li><a href="#habilidades-tecnicas">Habilidades Técnicas</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#sobre-mim">Sobre Mim</a></li>
+                    <li><a href="#habilidades-tecnicas">Habilidades Técnicas</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main class="secao-principal">
-        <section>
+        <section class="container">
             <div class="sobre-mim" id="sobre-mim">
                 <h1>
                     < Aline <br> Mozer <br> Baptista />
                 </h1>
 
-                <img class="minha-foto" src="src/images/foto.jpg" alt="Minha foto em preto e branco, com fone de ouvido"
+                <img class="minha-foto" src="src/images/foto.jpg" alt="Foto em preto e branco, com fone de ouvido"
                     title="Minha foto">
 
                 <p>&nbsp; &nbsp; &nbsp; &nbsp; Comunicação, organização, empatia e ética, são sem dúvidas, algumas de
@@ -64,10 +66,16 @@
                     área
                     que um dia cogitei. Busco uma chance de contribuir em equipe como Desenvolvedora Front-end, afim de
                     aprimorar cada dia mais meus conhecimentos em tecnologias e relações interpessoais.<br> <br>
-
-                    Obrigada por visitar meu portfólio. <br>
-                    Espero que goste de meus projetos!
                 </p>
+
+                <div class="consideracoes-finais curriculo">
+                    <p>Obrigada por visitar meu portfólio. <br>
+                        Espero que goste de meus projetos!
+                    </p>
+
+                    <a class="btn" target="_blanck" href="src/images/AMB-DEV-CV (1).pdf"> Acesse meu
+                        Currículo</a>
+                </div>
             </div>
         </section>
 
@@ -77,31 +85,27 @@
 
                 <ul>
                     <li>
-                        <p><i class="fa-brands fa-html5"></i> &nbsp; HTML5 - ipsum dolor sit, amet consectetur
-                            adipisicing elit. Commodi ex, corrupti deserunt.
+                        <p><i class="fa-brands fa-html5"></i> &nbsp; HTML5 - Nível avançado - Prática na estruturação de
+                            páginas com código limpo e semântico.
                         </p> <br>
                     </li>
                     <li>
-                        <p><i class="fa-brands fa-css3-alt"></i> &nbsp; CSS3 - ipsum dolor sit, amet consectetur
-                            adipisicing elit. Commodi ex.</p> <br>
+                        <p><i class="fa-brands fa-css3-alt"></i> &nbsp; CSS3 - Nível avançado - Prática na estilização
+                            de páginas com Flexbox, Grid, pseudo-elementos, pseudo-classes, entre outras propriedades
+                            CSS. </p> <br>
                     </li>
                     <li>
-                        <p><i class="fa-brands fa-js-square"></i> &nbsp; JAVASCRIPT - ipsum dolor sit, amet consectetur
-                            adipisicing elit. Commodi ex, corrupti
-                            deserunt
-                            voluptatum dicta.</p> <br>
+                        <p><i class="fa-brands fa-js-square"></i> &nbsp; JAVASCRIPT - Nível básico - Noção de lógica de
+                            programação, variáveis, tipos primitivos, operadores, laços de repetição, condicionais e
+                            funções.</p> <br>
                     </li>
                     <li>
-                        <p><i class="fa-brands fa-git-alt"></i> &nbsp; GIT - Lorem ipsum dolor sit, amet consectetur
-                            adipisicing elit. Commodi ex, corrupti
-                            deserunt
-                            voluptatum dicta nihil ad nisi.</p> <br>
+                        <p><i class="fa-brands fa-git-alt"></i> &nbsp; GIT - Nível intermediário - Noção da utilização
+                            de atalhos, em navegação, criação e remoção de arquivos pelo terminal.</p> <br>
                     </li>
                     <li>
-                        <p><i class="fa-brands fa-github-alt"></i> &nbsp; GITHUB - Lorem ipsum dolor sit, amet
-                            consectetur adipisicing elit. Commodi ex, corrupti
-                            deserunt
-                            voluptatum dicta nihil ad nisi.</p>
+                        <p><i class="fa-brands fa-github-alt"></i> &nbsp; GITHUB - Nível Intermediário - Prática na
+                            criação de repositórios, commits, clone, push, entre outras operações.</p>
                     </li>
                 </ul>
             </div>

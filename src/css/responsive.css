@@ -1,57 +1,53 @@
-@media(max-width:1650px) {
+@media(max-width: 1440px) {
     .cabecalho {
-        padding: 10px 55px;
+        padding: 10px;
     }
 
     .cabecalho .logo h2 {
-        font-size: 16px;
+        font-size: 1.6rem;
     }
 
     .menu li a {
-        font-size: 18px;
+        font-size: 1.8rem;
     }
 
     .sobre-mim h1 {
-        font-size: 50px;
+        font-size: 5rem;
     }
 
     .sobre-mim p {
-        font-size: 16px;
+        font-size: 1.6rem;
     }
 
     .habilidades-tecnicas h2 {
-        font-size: 35px;
+        font-size: 3.5rem;
     }
 
     .habilidades-tecnicas i {
-        font-size: 50px;
+        font-size: 5rem;
     }
 
     .habilidades-tecnicas li p {
-        font-size: 16px;
+        font-size: 1.6rem;
     }
 }
 
-@media(max-width:1200px) {
+@media(max-width: 1200px) {
     .logo img {
         padding-right: 0;
     }
 
-    .cabecalho {
+    .cabecalho .container {
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
 
     .cabecalho .logo {
         flex-direction: column;
-        padding-bottom: 50px;
-        align-items: center;
-        justify-content: center;
+        padding-bottom: 45px;
     }
 
-    .menu {
-        padding-bottom: 35px;
+    .cabecalho .logo h2 {
+        font-size: 1.2rem;
     }
 
     .secao-principal {
@@ -60,37 +56,32 @@
 
     .sobre-mim,
     .habilidades-tecnicas {
-        margin: 5px;
+        margin: 15px 10px;
     }
 }
 
-@media(max-width:785px) {
-    .cabecalho .logo h2 {
-        font-size: 12px;
-    }
+@media(max-width: 845px) {
     .menu {
         flex-direction: column;
     }
 
     .menu li {
-        padding-bottom: 35px;
+        padding-bottom: 30px;
     }
 
     .menu li a {
         padding: 10px 20px;
         margin: 0;
-        transition: 0.3 ease-in-out;
-    }
-
-    .menu li a:hover {
-        background-color: #29ffe9;
-        color: #000
     }
 }
 
 @media(max-width:575px) {
+    .cabecalho .container {
+        padding: 20px 0;
+    }
+
     .menu li a {
-        font-size: 15px;
+        font-size: 1.5rem;
     }
 
     .sobre-mim {
@@ -98,11 +89,11 @@
     }
 
     .sobre-mim h1 {
-        font-size: 40px;
+        font-size: 4rem;
     }
 
     .habilidades-tecnicas {
-        font-size: 35px;
+        font-size: 3.5rem;
     }
 }
 
