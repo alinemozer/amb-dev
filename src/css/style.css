@@ -73,9 +73,10 @@ html {
     justify-content: space-between;
     align-items: center;
     background-color: var(--bg-color-secoes);
-    max-width: 650px;
-    padding: 25px;
+    max-width: 750px;
+    padding: 35px;
     margin: 50px;
+    box-shadow: 8px 5px 5px var(--cor-padrao-2);
 }
 
 .sobre-mim h1, p {
@@ -91,46 +92,39 @@ html {
 }
 
 .sobre-mim .foto {
-    max-width: 225px;
-    max-height: 305px;
-    /* border: 5px solid var(--cor-padrao-1); */
-    border-radius: 10px;
+    width: 220px;
+    height: 300px;
+    border-radius: 5px;
     position: relative;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: var(--bg-color-secoes);
 }
 
 .sobre-mim .foto::before {
     content: " ";
-    background-image: conic-gradient(red 20deg, transparent 120deg);
-    width: 100%;
-    height: 100%;
+    background: linear-gradient(var(--cor-padrao-1), var(--cor-padrao-2));
+    width: 180px;
+    height: 140%;
     position: absolute;
-    animation: rotate 2s linear infinite;
+    animation: rotate 6s linear infinite;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(-360deg);
+    }
 }
 
 .sobre-mim .foto::after {
     content: " ";
-    background: url(../images/foto.jpg);
-    max-width: 100%;
-    max-height: 100%;
+    background: url(../images/foto.jpg) center no-repeat;
+    background-size: contain;
     position: absolute;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-}
-
-@keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
+    border-radius: 3px;
+    inset: 6px;
 }
 
 .sobre-mim p {
@@ -141,10 +135,10 @@ html {
 .sobre-mim .btn-curriculo {
     background-color: var(--cor-padrao-2);
     color: var(--bg-color-secoes);
-    padding: 15px 45px;
-    margin-top: 5px;
+    padding: 15px 35px;
+    margin-top: 10px;
     font-size: 1.8rem;
-    border-radius: 2px;
+    border-radius: 3px;
     box-shadow: 8px 5px 5px var(--cor-padrao-1);
     transition: 0.3s ease-in-out;
 }
@@ -163,6 +157,7 @@ html {
         max-width: 550px;
         padding: 10px 30px;
         margin: 50px;
+        box-shadow: 8px 5px 5px var(--cor-padrao-1);
 }
 
 .habilidades-tecnicas i {

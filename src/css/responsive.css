@@ -23,6 +23,7 @@
     .sobre-mim,
     .habilidades-tecnicas {
         margin: 15px 10px;
+        padding: 20px;
     }
 }
 
@@ -42,6 +43,11 @@
 }
 
 @media(max-width:575px) {
+    .sobre-mim .texto,
+    .habilidades-tecnicas .texto {
+        font-size: 1.5rem;
+    }
+
     .cabecalho .container {
         padding: 20px 0;
     }
