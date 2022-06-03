@@ -10,6 +10,8 @@ html {
 .container {
     max-width: 1650px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .cabecalho {
@@ -40,7 +42,7 @@ html {
     text-transform: uppercase;
 }
 
-.cabecalho .logo h2:hover{
+.cabecalho .logo h2:hover {
     font-weight: 600;
 }
 
@@ -63,8 +65,17 @@ html {
 
 .secao-principal {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.secoes-iniciais {
+    max-width: 1650px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .sobre-mim {
@@ -79,7 +90,8 @@ html {
     box-shadow: 8px 5px 5px var(--cor-padrao-2);
 }
 
-.sobre-mim h1, p {
+.sobre-mim h1,
+p {
     background-image: linear-gradient(to top, var(--cor-padrao-1), var(--cor-padrao-2));
     background-clip: text;
     -webkit-background-clip: text;
@@ -100,7 +112,6 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--bg-color-secoes);
 }
 
 .sobre-mim .foto::before {
@@ -128,7 +139,7 @@ html {
 }
 
 .sobre-mim p {
-    padding-top: 15px ;
+    padding-top: 15px;
     font-size: 1.8rem;
 }
 
@@ -144,20 +155,20 @@ html {
 }
 
 .sobre-mim .btn-curriculo:hover {
-    font-weight: 600; 
-    color: var(--cor-padrao-1);  
+    font-weight: 600;
+    color: var(--cor-padrao-1);
 }
 
 .habilidades-tecnicas {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        background-color: var(--bg-color-secoes);
-        max-width: 550px;
-        padding: 10px 30px;
-        margin: 50px;
-        box-shadow: 8px 5px 5px var(--cor-padrao-1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color-secoes);
+    max-width: 550px;
+    padding: 10px 30px;
+    margin: 50px;
+    box-shadow: 8px 5px 5px var(--cor-padrao-1);
 }
 
 .habilidades-tecnicas i {
@@ -175,6 +186,7 @@ html {
     font-weight: 650;
     font-size: 4rem;
     padding-bottom: 20px;
+    margin: 0 auto;
 }
 
 .habilidades-tecnicas li p {
@@ -183,4 +195,59 @@ html {
 
 .habilidades-tecnicas li p:last-child {
     padding-bottom: 10px;
+}
+
+.projetos {
+    background-color: var(--bg-color-secoes);
+    max-width: 1350px;
+    padding: 35px 15px;
+    margin: 50px 20px;
+    box-shadow: 8px 5px 5px var(--cor-padrao-2);
+}
+
+.projetos h2 {
+    background-image: linear-gradient(to right, var(--cor-padrao-1), var(--cor-padrao-2));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 5rem;
+    font-weight: 900;
+    padding-bottom: 15px;
+    margin: 0 auto;
+}
+
+.slider {
+    margin: 0 auto;
+    max-width: 1350px;
+    max-height: 685px;
+    overflow: hidden;
+    display: flex;
+}
+
+.slider .slides {
+    max-width: 1350%;
+    max-height: 100%;
+    display: flex;
+}
+
+.slider .slides input {
+    display: none;
+}
+
+.slides .slide {
+    max-width: 20%;
+    position: relative;
+}
+
+.slide img {
+    max-width: 1350px;
+}
+
+.navegacao-manual {
+    position: absolute;
+    max-width: 1350px;
+    margin-top: -35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
