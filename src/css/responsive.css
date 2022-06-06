@@ -42,18 +42,18 @@
     }
 }
 
-@media(max-width:575px) {
-    .sobre-mim .texto,
-    .habilidades-tecnicas .texto {
-        font-size: 1.6rem;
-    }
-
-    .cabecalho .container {
+@media(max-width: 605px) {
+     .cabecalho .container {
         padding: 20px 0;
     }
 
     .menu li a {
         font-size: 1.5rem;
+    }
+
+    .sobre-mim .texto,
+    .habilidades-tecnicas .texto {
+        font-size: 1.6rem;
     }
 
     .sobre-mim {
@@ -64,8 +64,21 @@
         font-size: 4rem;
     }
 
-    .habilidades-tecnicas {
+    .habilidades-tecnicas h2 {
         font-size: 3.5rem;
+    }
+
+    .projetos h2 {
+        font-size: 3.5rem;
+    }
+
+    .rodape .contato a {
+        font-size: 3rem;
+        margin: 0 15px;
+    }
+
+    .rodape .contato a:last-child {
+        font-size: 2.5rem;
     }
 }
 

@@ -166,7 +166,7 @@ p {
     align-items: center;
     background-color: var(--bg-color-secoes);
     max-width: 550px;
-    padding: 10px 30px;
+    padding: 25px 30px;
     margin: 50px;
     box-shadow: 8px 5px 5px var(--cor-padrao-1);
 }
@@ -175,7 +175,8 @@ p {
     font-size: 6.5rem;
 }
 
-.habilidades-tecnicas h2, li {
+.habilidades-tecnicas h2,
+li {
     background-image: linear-gradient(to left, var(--cor-padrao-1), var(--cor-padrao-2));
     background-clip: text;
     -webkit-background-clip: text;
@@ -186,6 +187,7 @@ p {
     font-weight: 650;
     font-size: 4rem;
     padding-bottom: 20px;
+    text-align: center;
     margin: 0 auto;
 }
 
@@ -197,57 +199,31 @@ p {
     padding-bottom: 10px;
 }
 
-.projetos {
+.rodape {
     background-color: var(--bg-color-secoes);
-    max-width: 1350px;
-    padding: 35px 15px;
-    margin: 50px 20px;
-    box-shadow: 8px 5px 5px var(--cor-padrao-2);
+    padding: 30px 20px 10px;
+    margin-top: 50px;
+    text-align: center;
 }
 
-.projetos h2 {
-    background-image: linear-gradient(to right, var(--cor-padrao-1), var(--cor-padrao-2));
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 5rem;
-    font-weight: 900;
-    padding-bottom: 15px;
+.rodape .contato {
+    max-width: 500px;
+    padding-bottom: 45px;
+    animation: pulse 1s infinite;
     margin: 0 auto;
 }
 
-.slider {
-    margin: 0 auto;
-    max-width: 1350px;
-    max-height: 685px;
-    overflow: hidden;
-    display: flex;
+.rodape .contato a {
+    color: var(--cor-padrao-2);
+    font-size: 4rem;
+    margin: 0 25px;
+    transition: 0.3s ease-in-out;
 }
 
-.slider .slides {
-    max-width: 1350%;
-    max-height: 100%;
-    display: flex;
+.rodape .contato a:last-child {
+    font-size: 3.5rem;
 }
 
-.slider .slides input {
-    display: none;
-}
-
-.slides .slide {
-    max-width: 20%;
-    position: relative;
-}
-
-.slide img {
-    max-width: 1350px;
-}
-
-.navegacao-manual {
-    position: absolute;
-    max-width: 1350px;
-    margin-top: -35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.rodape .contato a:hover {
+    color: var(--cor-padrao-1);
 }
