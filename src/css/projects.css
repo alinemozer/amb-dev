@@ -1,11 +1,9 @@
 .projetos {
     background-color: var(--bg-color-secoes);
-    max-width: 1250px;
-    padding: 20px 15px 35px;
+    max-width: 1100px;
+    padding: 20px 15px 25px;
     margin: 50px 20px;
     box-shadow: 8px 5px 5px var(--cor-padrao-2);
-    position: relative;
-    overflow: hidden;
 }
 
 .projetos h2 {
@@ -19,44 +17,31 @@
     margin: 0 auto;
 }
 
-.projetos .slider {
-    max-width: 1150px;
-    max-height: 650px;
-    overflow: hidden;
+.projetos .paineis {
     display: flex;
-    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
-.slider .slides {
-    width: 100%;
-    max-height: 100%;
-}
-
-.slider .slides input {
-    display: none;
-}
-
-.slides .slide {
-    width: 20%;
-}
-
-.slides .slide {
-    width: 100%;
+.projetos .paineis .imagem-painel  {
+    min-width: 100%;
     height: 100%;
 }
 
-.navegacao-manual {
-    position: absolute;
-    width: 100%;
-    bottom: 25px;
+.projetos .setas {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    gap: 10px;
 }
 
-.manual-btn {
-    border: 2px solid var(--cor-padrao-1);
-    padding: 4px;
-    margin: 2px;
-    border-radius: 50%;
+.projetos .setas .btn {
+    background-image: linear-gradient(to top, var(--cor-padrao-1), var(--cor-padrao-2));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2.5rem;
+    padding: 10px 5px 0;
 }

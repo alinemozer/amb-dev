@@ -74,11 +74,15 @@
 
     .rodape .contato a {
         font-size: 3rem;
-        margin: 0 15px;
+        margin: 0 10px;
     }
 
     .rodape .contato a:last-child {
         font-size: 2.5rem;
+    }
+
+    .projetos .setas .btn {
+        font-size: 1.5rem;
     }
 }
 

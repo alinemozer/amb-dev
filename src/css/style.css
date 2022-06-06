@@ -209,7 +209,7 @@ li {
 .rodape .contato {
     max-width: 500px;
     padding-bottom: 45px;
-    animation: pulse 1s infinite;
+    animation: pulse 1.5s infinite;
     margin: 0 auto;
 }
 
