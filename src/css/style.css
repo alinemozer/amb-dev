@@ -209,7 +209,7 @@ li {
 .rodape .contato {
     max-width: 500px;
     padding-bottom: 45px;
-    animation: pulse 1.5s infinite;
+    animation: flash 3s infinite;
     margin: 0 auto;
 }
 
@@ -226,4 +226,8 @@ li {
 
 .rodape .contato a:hover {
     color: var(--cor-padrao-1);
+}
+
+.rodape p {
+    font-size: 1.5rem;
 }
