@@ -5,7 +5,7 @@ Neste projeto responsivo, pude criar uma página do zero. <b>
 Tentei criar um desing moderno e ao mesmo tempo que remetesse aos anos 80. <br>
 Com um código semântico, utilizando flexbox, pseudo-elementos <br> 
 e animações "manuais", tanto quanto com uso da biblioteca 'Animate.style'. <br>
-Além de um carrossel interativo,para mostrar meus projetos.
+Além de um carrossel interativo, para mostrar meus projetos.
 
 🖥 Tecnologias utilizadas:
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
