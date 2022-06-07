@@ -4,7 +4,7 @@ Repositório com meu Portfólio: Informações pessoais, habilidades técnicas, 
 📝 Neste projeto responsivo, pude criar uma página do zero. <br> 
 Onde tentei criar um desing moderno e ao mesmo tempo que remetesse aos anos 80. <br>
 Com um código semântico, utilizando flexbox, pseudo-elementos <br> 
-e animações "manuais", tanto quanto com uso da biblioteca 'Animate.style'. <br>
+e animações "manuais", tanto quanto com uso do 'Animate.style'. <br>
 Além de um carrossel interativo, para mostrar meus projetos.
 
 🖥 Tecnologias utilizadas:
