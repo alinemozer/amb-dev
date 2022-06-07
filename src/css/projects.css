@@ -21,15 +21,39 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    position: relative;
 }
 
-.projetos .paineis .imagem-painel  {
+.projetos .paineis .imagem-painel {
     min-width: 100%;
     height: 100%;
+    opacity: 0;
+    display: none;
+    z-index: 2;
 }
 
+.projetos .paineis .imagem-painel.mostrar {
+    opacity: 1;
+    display: block;
+}
 
+.projetos h3 {
+    font-style: italic;
+    font-size: 1.8rem;
+    background-image: linear-gradient(to left, var(--cor-padrao-1), var(--cor-padrao-2));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    position: absolute;
+}
+
+.paineis .imagem-painel .link-imagem:hover {
+    opacity: 0.02;
+}
+
+.projetos h3:hover {
+    opacity: 1;
+}
 
 .projetos .setas {
     display: flex;
@@ -46,4 +70,5 @@
     color: transparent;
     font-size: 2.5rem;
     padding: 10px 5px 0;
+    cursor: pointer;
 }
