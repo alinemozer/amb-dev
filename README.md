@@ -1,5 +1,6 @@
 # projeto-portfolio-amb-dev
-Repositório com meu Portfólio: Informações pessoais, habilidades técnicas, projetos e contato.
+Repositório com meu Portfólio: Informações pessoais, habilidades técnicas, projetos e contato. <br>
+
 Neste projeto responsivo, pude criar uma página do zero. <b> 
 Tentei criar um desing moderno e ao mesmo tempo que remetesse aos anos 80. <br>
 Com um código semântico, utilizando flexbox, pseudo-elementos <br> 
