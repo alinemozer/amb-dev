@@ -23,6 +23,7 @@ setaAnvancar.addEventListener('click', function() {
 
     esconderImagens();
     mostrarImagem();
+    opacidadeSeta()
 });
 
 setaVoltar.addEventListener('click', function() {
@@ -34,4 +35,14 @@ setaVoltar.addEventListener('click', function() {
 
     esconderImagens()
     mostrarImagem()
+    opacidadeSeta()
 });
+
+function opacidadeSeta() {
+    const primeiroProjeto = 0;
+    const ultimoProjeto = imagensPainel.length -1;
+
+    imagemAtual === primeiroProjeto ? setaVoltar.classList.add('opacidade-seta') : setaVoltar.classList.remove('opacidade-seta');
+
+    imagemAtual === ultimoProjeto ? setaAnvancar.classList.add('opacidade-seta') : setaAnvancar.classList.remove('opacidade-seta');
+}
