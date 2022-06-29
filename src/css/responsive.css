@@ -58,14 +58,19 @@
 
     .sobre-mim {
         flex-direction: column;
+        text-align: center;
     }
 
     .sobre-mim h1 {
         font-size: 4rem;
     }
 
-    .habilidades-tecnicas h2 {
+    .habilidades-tecnicas h2, i {
         font-size: 3.5rem;
+    }
+
+    .habilidades-tecnicas i {
+        font-size: 5rem;
     }
 
     .projetos h2 {
