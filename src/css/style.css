@@ -100,12 +100,12 @@ p {
 
 .sobre-mim h1 {
     font-weight: 900;
-    font-size: 55px;
+    font-size: 5.5em;
 }
 
 .sobre-mim .foto {
     width: 220px;
-    height: 300px;
+    height: 295px;
     border-radius: 5px;
     position: relative;
     overflow: hidden;
@@ -118,7 +118,7 @@ p {
     content: " ";
     background: linear-gradient(var(--cor-padrao-1), var(--cor-padrao-2));
     width: 180px;
-    height: 140%;
+    height: 180%;
     position: absolute;
     animation: rotate 6s linear infinite;
 }
@@ -134,8 +134,8 @@ p {
     background: url(../images/foto.jpg) center no-repeat;
     background-size: contain;
     position: absolute;
-    border-radius: 3px;
-    inset: 6px;
+    border-radius: 5px;
+    inset: 4px;
 }
 
 .sobre-mim p {
@@ -155,7 +155,6 @@ p {
 }
 
 .sobre-mim .btn-curriculo:hover {
-    font-weight: 600;
     color: var(--cor-padrao-1);
 }
 
@@ -172,7 +171,7 @@ p {
 }
 
 .habilidades-tecnicas i {
-    font-size: 6.5rem;
+    font-size: 5rem;
 }
 
 .habilidades-tecnicas h2,
@@ -184,7 +183,7 @@ li {
 }
 
 .habilidades-tecnicas h2 {
-    font-weight: 650;
+    font-weight: 700;
     font-size: 4rem;
     padding-bottom: 20px;
     text-align: center;

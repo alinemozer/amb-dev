@@ -14,7 +14,7 @@ function mostrarImagem() {
     imagensPainel[imagemAtual].classList.add('mostrar');
 }
 
-setaAnvancar.addEventListener('click', function() {
+setaAnvancar.addEventListener('click', () => {
     if (imagemAtual === totalDeImagens) {
         return;
     }
@@ -23,19 +23,19 @@ setaAnvancar.addEventListener('click', function() {
 
     esconderImagens();
     mostrarImagem();
-    opacidadeSeta()
+    opacidadeSeta();
 });
 
-setaVoltar.addEventListener('click', function() {
+setaVoltar.addEventListener('click', () => {
     if (imagemAtual === 0) {
         return;
     }
 
     imagemAtual--;
 
-    esconderImagens()
-    mostrarImagem()
-    opacidadeSeta()
+    esconderImagens();
+    mostrarImagem();
+    opacidadeSeta();
 });
 
 function opacidadeSeta() {
@@ -43,6 +43,5 @@ function opacidadeSeta() {
     const ultimoProjeto = imagensPainel.length -1;
 
     imagemAtual === primeiroProjeto ? setaVoltar.classList.add('opacidade-seta') : setaVoltar.classList.remove('opacidade-seta');
-
     imagemAtual === ultimoProjeto ? setaAnvancar.classList.add('opacidade-seta') : setaAnvancar.classList.remove('opacidade-seta');
 }
